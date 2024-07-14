@@ -9,8 +9,16 @@ Expected Output :
 8 x 10 = 80*/
 
 
+import java.util.Scanner;
+
+
 public class ex007 {
     public static void main(String[] args) {
-        
+        Scanner scan = new Scanner(System.in);
+        int number = scan.nextInt();
+        for (int i = 2; i <= 10; i++) {
+            System.out.println(number * i);
+        }
+        scan.close();
     }
 }
