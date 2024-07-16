@@ -41,6 +41,6 @@ public class Ex054 {
         if (num2 == num3) {
             counter++;
         }
-        return counter >= 2;
+        return counter >= 1;
     }
 }
