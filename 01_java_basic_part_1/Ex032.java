@@ -24,5 +24,6 @@ public class Ex032 {
         } else if (num01 == num02) {
             System.out.println(num01 + " = " + num02);
         }
+        in.close();
     }
 }

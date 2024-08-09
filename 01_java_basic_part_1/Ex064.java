@@ -17,6 +17,7 @@ public class Ex064 {
         int num1 = in.nextInt();
         int num2 = in.nextInt();
         System.out.println(commonDigit(num1, num2));
+        in.close();
     }
 
     private static boolean commonDigit(int num1,int num2) {

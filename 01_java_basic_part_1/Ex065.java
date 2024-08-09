@@ -16,6 +16,7 @@ public class Ex065 {
         int num2 = in.nextInt();
         System.out.println(modulus(num1, num2));
         System.out.println(num1 % num2);
+        in.close();
     }
 
     private static int modulus(int num1, int num2) {

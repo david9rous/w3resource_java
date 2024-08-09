@@ -24,6 +24,7 @@ public class Ex053 {
         System.out.println("Treti cislo: ");
         int num3 = in.nextInt();
         System.out.println(numbersTest(num1, num2, num3));
+        in.close();
     }
 
     public static Boolean numbersTest(int a,int b,int c) {

@@ -24,5 +24,6 @@ public class Ex056 {
             }
         }
         System.out.println(counter);
+        in.close();
     }
 }

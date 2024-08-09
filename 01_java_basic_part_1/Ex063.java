@@ -25,6 +25,7 @@ public class Ex063 {
         } else {
             System.out.println(0);
         }
+        in.close();
     }
 
     private static boolean sameRemDivBy6(int num1, int num2) {

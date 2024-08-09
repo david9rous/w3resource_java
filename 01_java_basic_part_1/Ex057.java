@@ -15,6 +15,7 @@ public class Ex057 {
         int num = in.nextInt();
         int factor = num / 2;
         int numOfFactors = 1;
+        in.close();
         for ( ; factor > 0; factor--) {
             if (num % factor == 0) {
                 numOfFactors++;
@@ -22,6 +23,5 @@ public class Ex057 {
         }
         System.out.println("Pocet delitelu: ");
         System.out.println(numOfFactors);
-        in.close();
     }
 }

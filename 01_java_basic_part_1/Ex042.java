@@ -14,5 +14,6 @@ public class Ex042 {
         System.out.println("Enter your password: ");
         String password = in.nextLine();
         System.out.println("Your password is: " + password);
+        in.close();
     }
 }
